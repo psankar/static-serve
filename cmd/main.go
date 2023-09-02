@@ -7,7 +7,7 @@ import (
 	"net/http"
 )
 
-// go:embed public
+//go:embed public
 var public embed.FS
 
 func main() {
